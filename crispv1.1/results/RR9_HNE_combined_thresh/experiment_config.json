@@ -1,0 +1,54 @@
+{
+    "name": "RR9_HNE_combined_thresh",
+    "short_name": "RR9_HNE_combined_thresh",
+    "verbose": 1,
+    "test_val_split": [
+        0.1,
+        0.1
+    ],
+    "data_options": {
+        "dataset_fp": "data/RR9_HNE_combined_thresh_log_zscore_sqrt_mor.pkl",
+        "subject_keys": "sample",
+        "targets": [
+            "thresh"
+        ],
+        "predictors": "All",
+        "environments": [
+            "env"
+        ],
+        "exclude": [
+            "sample",
+            "env"
+        ],
+        "output_data_regime": "binary"
+    },
+    "feature_selection_options": {
+        "max_features": 20,
+        "verbose": 0,
+        "seed": 23
+    },
+    "ensemble_options": {
+        "models": [
+            "ICP",
+            "NLICP",
+            "LIRM",
+            "IRM",
+            "RF",
+            "ERM"
+        ],
+        "LIRM": {
+            "seed": 23,
+            "batch_size": 8
+        },
+        "IRM": {
+            "seed": 23,
+            "batch_size": 8
+        },
+        "ICP": {
+            "seed": 23,
+            "batch_size": 8
+        }
+    },
+    "use_cloud": false,
+    "results_directory": "C:\\Users\\2000053558\\OneDrive - Fulton County Schools\\Other Academics\\Clubs\\ISEF\\RR9_Retina_RNAseq_HNE\\crispv1.1\\results\\RR9_HNE_combined_thresh/"
+}
