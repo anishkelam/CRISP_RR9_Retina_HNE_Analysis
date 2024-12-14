@@ -1,5 +1,0 @@
-"Enrichment FDR","nGenes","Pathway Genes","Fold Enrichment","Pathway","URL","Genes"
-0.0122276027124869,5,258,16.3669590643275,"GO:0033002 muscle cell proliferation "," http://amigo.geneontology.org/amigo/term/GO:0033002"," Gna12  Cav2  Tbx2  Gnai3  Ccnd2"
-0.0415455034850444,9,2102,4.34663503019845,"GO:0008283 cell population proliferation "," http://amigo.geneontology.org/amigo/term/GO:0008283"," Cav2  Ngfr  Fer  Axin2  Brat1  Gna12  Ccnd2  Tbx2  Gnai3"
-0.0415455034850444,3,78,29.4605263157895,"GO:0014855 striated muscle cell proliferation "," http://amigo.geneontology.org/amigo/term/GO:0014855"," Cav2  Tbx2  Ccnd2"
-0.0415455034850444,8,1765,4.67920585161965,"GO:0042127 reg. of cell population proliferation "," http://amigo.geneontology.org/amigo/term/GO:0042127"," Cav2  Ngfr  Fer  Axin2  Gna12  Ccnd2  Tbx2  Gnai3"
